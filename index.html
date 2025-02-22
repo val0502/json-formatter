@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JSON Formatter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-coy.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <h1>JSON Formatter</h1>
+    <div class="container">
+        <textarea id="input" placeho    lder="Input raw JSON here..."></textarea>
+        <button onclick="formatJSON()">Format</button>
+        
+        <pre><code id="output" class="language-json"></code></pre>
+        <button id="copyBtn" onclick="copyToClipboard()">Copy JSON</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
