@@ -7,3 +7,6 @@ A simple JSON formatter with no backend
  - JSON highlight after format
  - Copy to Clipboard button
 **WIP:**
+ - Try add a code editor?
+ - resizable Text
+ - Use local storage or session storage for storing original text
