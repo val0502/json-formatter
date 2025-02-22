@@ -1,12 +1,16 @@
-Simple JSON Formatter
+# Simple JSON Formatter
 
-A simple JSON formatter with no backend
+A simple JSON formatter with no backend.
 
-**DONE:**
- - Format basic JSON
- - JSON highlight after format
- - Copy to Clipboard button
-**WIP:**
- - Try add a code editor?
- - resizable Text
- - Use local storage or session storage for storing original text
+## Features
+- Format basic JSON
+- JSON highlight after format
+- Copy to Clipboard button
+
+## Work In Progress
+- Add a code editor
+- Resizable text area
+- Use local storage or session storage for storing original text
+
+## Getting Started
+To use this JSON formatter, simply open the HTML file in your browser. No backend setup is required.
